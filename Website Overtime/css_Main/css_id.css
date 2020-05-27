@@ -1,0 +1,51 @@
+#logo_größe{
+	height: 13%;
+	width: 10%;
+}
+#uhrzeit{
+	position: fixed;
+	top: 50%;
+  	left: 50%;
+  	margin-top: -429px;
+  	margin-left: -100px;
+	font-size: 40px;
+	font-family: Arial;
+}
+#htl_logo{
+	height: 11,5%;
+	width: 18%;
+	position: absolute;
+  	top: 8px;
+  	right: 16px;
+}
+#letzte_Grenze{
+	border: none;
+}
+#abstand_links{
+	margin-left: 37px;
+}
+#abstand_links_vorname{
+	margin-left: 177px;
+	margin-top: 140px;
+	heigth: 100px;
+	width: 1752px;
+}
+#x_abstand{ 
+	margin-left: 310px;
+	font-size: 20px;
+	font-family: Arial;
+}
+#txt1{
+	margin-left: 240px;
+}
+#txt2{
+	margin-left: 190px;
+}
+#txt3{
+	margin-left: 170px;
+}
+#x_vorname{
+	font-size: 20px;
+	font-family: Arial;
+}
+

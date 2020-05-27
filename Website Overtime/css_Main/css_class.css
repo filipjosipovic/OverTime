@@ -66,3 +66,14 @@
 	background-position: center;
 	font-family: sans-serif;
 }
+.abstand a{
+	font-size: 20px;
+	font-family: Arial;
+	border-right: 2px solid black;
+	padding-right: 140px;
+	padding-left: 140px;
+
+}
+.abstand{
+	margin-top: 50px;
+}

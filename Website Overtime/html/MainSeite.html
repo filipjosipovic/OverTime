@@ -2,28 +2,39 @@
 	<head>
 		<title>Overtime</title>
 		<meta charset="utf-8">	
-		<link type="text/css" media="screen" rel="stylesheet" href="../css/css_class.css">
-		<link type="text/css" media="screen" rel="stylesheet" href="../css/css_id.css">
-		<link type="text/css" media="screen" rel="stylesheet" href="../css/css_typ.css">
+		<link type="text/css" media="screen" rel="stylesheet" href="../css_Main/css_class.css">
+		<link type="text/css" media="screen" rel="stylesheet" href="../css_Main/css_id.css">
+		<link type="text/css" media="screen" rel="stylesheet" href="../css_Main/css_typ.css">
 	</head>
 	
 	<body>
 	
 	
 		<div>
-		<img id="logo_größe" src="../bilder/overtime.jpg" >
-	    <hr></hr>
-								
+				<img id="logo_größe" src="../bilder/overtime.jpg" >
+				<div id="uhrzeit">
+					<script  language="javascript">  var today = new Date();  document.write(today.getHours() + ":" + today.getMinutes());  </script>
+				</div>	
+				<div>
+					<img id="htl_logo" src="../bilder/htl donaustadt logo.png" >
+				</div>
 		</div>
 		
-		<div id="uhrzeit">
-			<script language="javascript">  var today = new Date();  document.write(today.getHours() + ":" + today.getMinutes());  </script>
+		<hr></hr>
+		
+		<div class="abstand">
+			<a id="abstand_links"> Vorname</a>	<a> Nachname</a> <a> Startzeit</a> <a> Endzeit</a> <a id="letzte_Grenze"> Raum</a> 
 		</div>
 		
-	
-	
-	
-	
+		<div id="abstand_links_vorname">
+			<a id="x_vorname"> Max</a>	
+
+			<a id="x_abstand"> Mustermann</a>   
+			
+			<a id="txt1"> <input type ="text" maxlength="5" name="" placeholder ="Eingabe Startzeit"></a>
+			<a id="txt2"> <input type ="text" maxlength="5" name="" placeholder ="Eingabe Endzeit"></a>
+			<a id="txt3"> <input type ="text" name="" placeholder ="Eingabe Raum"></a> 
+		</div>
 	
 	</body>
 </html>
