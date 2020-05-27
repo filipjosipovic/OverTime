@@ -1,0 +1,22 @@
+﻿<Window x:Class="OverTime.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OverTime"
+        mc:Ignorable="d"
+        Title="Registrierte dudes" Height="450" Width="879.602" Margin="1,1">
+    <Grid Margin="0,0,437.6,0">
+        <TextBlock HorizontalAlignment="Left"  Height="29" Margin="160,13,0,0" TextWrapping="Wrap" Text="Lastname" VerticalAlignment="Top" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Height="25" Margin="0,13,0,0" TextWrapping="Wrap" Text="Firstname" VerticalAlignment="Top" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="536,13,-275,0" TextWrapping="Wrap" Text="From - to" VerticalAlignment="Top" Width="175"/>
+        <ScrollBar Margin="938,-10,-439,10"></ScrollBar>
+        <UniformGrid HorizontalAlignment="Left" x:Name="Window1Vorname" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="7,47,0,0"/>
+        <UniformGrid HorizontalAlignment="Left" x:Name="Window1Nachname" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="160,47,0,0"/>
+        <UniformGrid HorizontalAlignment="Left" x:Name="Window1Date" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="340,47,-57,0"/>
+        <UniformGrid HorizontalAlignment="Left" x:Name="Window1FromTo" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="536,47,-253,0"/>
+        <UniformGrid HorizontalAlignment="Left" x:Name="Window1Class" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="708,47,-425,0"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="318,10,-57,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="726,8,-465,0" TextWrapping="Wrap" Text="class" VerticalAlignment="Top" Width="175"/>
+    </Grid>
+</Window>
