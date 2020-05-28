@@ -22,35 +22,34 @@
 	border: none;
 }
 #abstand_links{
-	margin-left: 37px;
+	margin-left: -5%
 }
 #abstand_links_vorname_erster{
-	margin-left: 177px;
 	margin-top: 140px;
 	heigth: 100px;
 	width: 1752px;
 }
 #x_abstand{ 
-	margin-left: 310px;
+	margin-left: 14%;
 	font-size: 20px;
 	font-family: Arial;
 }
 #txt1{
-	margin-left: 315px;
+	margin-left: 16%;
 }
 #txt2{
-	margin-left: 328px;
+	margin-left: 15%;
 }
 #txt3{
-	margin-left: 310px;
+	margin-left: 15%;
 }
 #x_vorname{
+	margin-left: 2.4%;
 	font-size: 20px;
 	font-family: Arial;
 }
 
 #abstand_links_vorname{
-	margin-left: 177px;
 	margin-top: 20px;
 	heigth: 100px;
 	width: 1752px;

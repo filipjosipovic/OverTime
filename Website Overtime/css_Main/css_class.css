@@ -70,10 +70,14 @@
 	font-size: 20px;
 	font-family: Arial;
 	border-right: 2px solid black;
-	padding-right: 140px;
-	padding-left: 140px;
+	padding-right: 120px;
+	padding-left: 120px;
 
 }
 .abstand{
 	margin-top: 50px;
+}
+.confirm_div{
+	margin-top: 7%;
+	margin-left: 47%;
 }
