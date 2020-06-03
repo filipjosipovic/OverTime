@@ -48,9 +48,14 @@
 	font-size: 20px;
 	font-family: Arial;
 }
-
 #abstand_links_vorname{
 	margin-top: 20px;
 	heigth: 100px;
 	width: 1752px;
+}
+#txt1_1{
+	margin-left: 15.1%;
+}
+#txt1_2{
+	margin-left: 17.1%;
 }
