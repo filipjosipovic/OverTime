@@ -1,0 +1,62 @@
+#logo_größe{
+	height: 13%;
+	width: 10%;
+}
+#uhrzeit{
+	position: fixed;
+	top: 50%;
+  	left: 50%;
+  	margin-top: -429px;
+  	margin-left: -100px;
+	font-size: 40px;
+	font-family: Arial;
+}
+#htl_logo{
+	height: 11,5%;
+	width: 18%;
+	position: absolute;
+  	top: 8px;
+  	right: 16px;
+}
+#letzte_Grenze{
+	border: none;
+}
+#abstand_links{
+	margin-left: -5%
+}
+#abstand_links_vorname_erster{
+	margin-top: 140px;
+	/* height: 100px; */
+	width: 1752px;
+}
+#x_abstand{ 
+	margin-left: 14%;
+	font-size: 20px;
+	font-family: Arial;
+}
+#txt1{
+	margin-left: 16%;
+}
+#txt2{
+	margin-left: 15%;
+}
+#txt3{
+	margin-left: 15%;
+}
+#x_vorname{
+	margin-left: 2.4%;
+	font-size: 20px;
+	font-family: Arial;
+}
+#abstand_links_vorname{
+	margin-top: 30px;
+
+	/* height: 100px; */
+	width: 1752px;
+}
+#txt1_1{
+	margin-left: 15.1%;
+}
+#txt1_2{
+	margin-left: 17.1%;
+}
