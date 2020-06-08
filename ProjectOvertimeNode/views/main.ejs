@@ -1,0 +1,55 @@
+<html>
+
+<head>
+    <title>Overtime</title>
+    <meta charset="utf-8">
+    <link type="text/css" media="screen" rel="stylesheet" href="/css/css_class.css">
+    <link type="text/css" media="screen" rel="stylesheet" href="/css/css_id.css">
+    <link type="text/css" media="screen" rel="stylesheet" href="/css/css_typ.css">
+</head>
+
+<body>
+
+
+    <div>
+        <img id="logo_größe" src="/img/overtime.jpg">
+        <div id="uhrzeit">
+            <script
+                language="javascript">  var today = new Date(); document.write(today.getHours() + ":" + today.getMinutes());  </script>
+        </div>
+        <div>
+            <img id="htl_logo" src="img/htl donaustadt logo.png">
+        </div>
+    </div>
+
+    <hr>
+    </hr>
+
+    <div class="abstand">
+        <a id="abstand_links"> Vorname</a> <a> Nachname</a> <a> Startzeit</a> <a> Endzeit</a> <a id="letzte_Grenze">
+            Raum</a>
+    </div>
+
+    <div id="abstand_links_vorname">
+        <a id="x_vorname"> <%= firstname %></a>
+
+        <a id="x_abstand"> <%= lastname %></a>
+
+        <form method="POST" action="/main" class="confirm_div">
+            <a id="starttime"> <input type="text" maxlength="5" name="starttime" placeholder="Eingabe Startzeit"></a>
+            <a id="endtime"> <input type="text" maxlength="5" name="endtime" placeholder="Eingabe Endzeit"></a>
+            <a id="room"> <input type="text" name="room" placeholder="Eingabe Raum"></a>
+            <input class="confirm_button" id="confirm" type="submit" name="" value="Bestätigen">
+        </form>
+
+    </div>
+
+    <!-- <div class="confirm_div">
+        <form>
+            <input id="confirm" type="submit" name="" value="Bestätigen">
+        </form>
+    </div> -->
+
+</body>
+
+</html>

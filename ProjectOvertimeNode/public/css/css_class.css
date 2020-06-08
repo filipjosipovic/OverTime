@@ -59,7 +59,7 @@
 	color: #000;
 }
 .bodyback {
-	background: url(../bilder/HTL.jpg);
+	background: url(/img/HTL.jpg);
 	margin: 0;
 	padding: 0;
 	background-size: cover;
@@ -77,13 +77,10 @@
 .abstand{
 	margin-top: 50px;
 }
-.zeit_raum{
-	font-size: 20px;
-	font-family: Arial;
+.confirm_div{
+	margin-left: 30%;
+	margin-bottom: 3%;
 }
-.strich{
-	background-color: #79B7F5;
-	height: 1.1px;
-	width: 80%;
-	margin-left: 0%;
+.confirm_div .confirm_button{
+	margin-left: 3%;
 }

@@ -24,7 +24,7 @@
 #abstand_links{
 	margin-left: -5%
 }
-#abstand_links_vorname_erster{
+#abstand_links_vorname{
 	margin-top: 140px;
 	heigth: 100px;
 	width: 1752px;
@@ -35,27 +35,27 @@
 	font-family: Arial;
 }
 #txt1{
-	margin-left: 16%;
+	margin-left: 12%;
 }
 #txt2{
-	margin-left: 15%;
+	margin-left: 8%;
 }
 #txt3{
-	margin-left: 15%;
+	margin-left: 7%;
 }
 #x_vorname{
 	margin-left: 2.4%;
 	font-size: 20px;
 	font-family: Arial;
 }
-#abstand_links_vorname{
-	margin-top: 20px;
-	heigth: 100px;
-	width: 1752px;
+#confirm{
+	height: 5%;
+	border: none;
+	outline: none;
+	background: #42F087;	
+	border-radius: 10px;
+	font-size: 15px;
 }
-#txt1_1{
-	margin-left: 15.1%;
-}
-#txt1_2{
-	margin-left: 17.1%;
+#confirm:hover{
+	background: #42C7E3;
 }

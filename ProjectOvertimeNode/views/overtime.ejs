@@ -1,0 +1,50 @@
+<html>
+	<head>
+		<title>Overtime</title>
+		<meta charset="utf-8">	
+		<link type="text/css" media="screen" rel="stylesheet" href="/css/overtime/css_class.css">
+		<link type="text/css" media="screen" rel="stylesheet" href="/css/overtime/css_id.css">
+		<link type="text/css" media="screen" rel="stylesheet" href="/css/overtime/css_typ.css">
+	</head>
+    
+	<body>
+		<div>
+				<img id="logo_größe" src="/img/overtime.jpg" >
+				<div id="uhrzeit">
+					<script  language="javascript">  var today = new Date();  document.write(today.getHours() + ":" + today.getMinutes());  </script>
+				</div>	
+				<div>
+					<img id="htl_logo" src="/img/htl donaustadt logo.png" >
+				</div>
+		</div>
+		<hr>
+
+		<div class="abstand">
+			<a id="abstand_links"> Vorname</a>	<a> Nachname</a> <a> Startzeit</a> <a> Endzeit</a> <a id="letzte_Grenze"> Raum</a> 
+		</div>
+
+		  <% userMap.forEach((user) => { %>
+              <div id="abstand_links_vorname">
+			
+			<a id="x_vorname"> <%= user.name.split(" ")[0] %></a>	
+
+			<a id="x_abstand"> <%= user.name.split(" ")[1] %></a>   
+			
+			<a id="txt1_1" class="zeit_raum"> <%= user.startTime %> </a>
+			
+			<a id="txt2" class="zeit_raum"> <%= user.endTime %> </a>
+			
+			<a id="txt3" class="zeit_raum"> <%= user.Room %> </a> 
+				
+		</div>
+		
+		 <br>
+		 	<hr class="strich">
+		 <br>
+    <% }); %>
+		
+		
+	
+	
+	</body>
+</html>

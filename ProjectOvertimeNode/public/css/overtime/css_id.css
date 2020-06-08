@@ -26,7 +26,7 @@
 }
 #abstand_links_vorname_erster{
 	margin-top: 140px;
-	heigth: 100px;
+	/* height: 100px; */
 	width: 1752px;
 }
 #x_abstand{ 
@@ -49,8 +49,9 @@
 	font-family: Arial;
 }
 #abstand_links_vorname{
-	margin-top: 20px;
-	heigth: 100px;
+	margin-top: 30px;
+
+	/* height: 100px; */
 	width: 1752px;
 }
 #txt1_1{

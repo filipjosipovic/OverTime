@@ -59,7 +59,7 @@
 	color: #000;
 }
 .bodyback {
-	background: url(../bilder/HTL.jpg);
+	background: url(/img/HTL.jpg);
 	margin: 0;
 	padding: 0;
 	background-size: cover;
@@ -76,6 +76,7 @@
 }
 .abstand{
 	margin-top: 50px;
+	padding-bottom: 30px;
 }
 .zeit_raum{
 	font-size: 20px;
