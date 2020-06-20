@@ -1,0 +1,16 @@
+Shell 
+npm run dev	
+
+		
+http://localhost:5000/schulwart/key0x0ff2b
+http://localhost:5000/
+https://cloud.mongodb.com/v2/5ed810711e5fc96c310988a8#metrics/replicaSet/5ed8119423e4154c10770b4f/explorer/%3Cdbname%3E/users/find
+
+felix.jopkiewicz@studierende.htl-donaustadt.at
+
+USER DATA:
+felix.jopkiewicz : Felix1
+fabio.boran: Fabio1
+dejan.sunaric: Dejan1
+eldi.neziri: Eldi12
+filip.josipovic:Filip1
