@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-03-21" view-index="0" gantt-divider-location="303" resource-divider-location="300" version="2.8.10" locale="de">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2020-02-10" view-index="0" gantt-divider-location="303" resource-divider-location="300" version="2.8.10" locale="de">
     <description/>
-    <view zooming-state="default:2" id="gantt-chart">
+    <view zooming-state="default:6" id="gantt-chart">
         <field id="tpd3" name="Vorgang" width="169" order="0"/>
         <field id="tpd4" name="Anfang" width="65" order="1"/>
         <field id="tpd5" name="Ende" width="65" order="2"/>
@@ -52,11 +52,11 @@
             <depend id="11" type="2" difference="0" hardness="Strong"/>
             <task id="9" name="Gantt-Chart" color="#8cb6ce" meeting="false" start="2020-03-24" duration="1" complete="100" thirdDate="2020-03-24" thirdDate-constraint="1" expand="true"/>
         </task>
-        <task id="11" name="Execution" color="#8cb6ce" meeting="false" start="2020-03-25" duration="50" complete="18" thirdDate="2020-03-24" thirdDate-constraint="0" expand="true">
-            <task id="13" name="Website" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="51" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
+        <task id="11" name="Execution" color="#8cb6ce" meeting="false" start="2020-03-25" duration="50" complete="70" thirdDate="2020-03-24" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Website" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="100" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Database" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="0" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Database" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="100" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="15" name="Connection to school server" color="#8cb6ce" meeting="false" start="2020-05-04" duration="21" complete="0" thirdDate="2020-05-04" thirdDate-constraint="1" expand="true">
