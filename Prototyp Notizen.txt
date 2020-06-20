@@ -1,6 +1,5 @@
 Shell 
 npm run dev	
-
 		
 http://localhost:5000/schulwart/key0x0ff2b
 http://localhost:5000/
@@ -16,6 +15,9 @@ eldi.neziri: Eldi12
 filip.josipovic:Filip1
 
 MongoDB ist eine NoSQL datenbank.
-SQL ist der bekannteste weg datenbanken anzulegen hat aber viele Limitationen.
+Wurde in c++ geschrieben
+SQL ist der bekannteste Weg datenbanken anzulegen hat aber viele Limitationen.
+NoSQL Dinge können als Objekte angekegt werden Abfragen sind leichter wegen Tabellen.
+MongoDB kann eine Datenbank auf mehreren PCs teilen
 Eine NoSQL Datenbank in diesem Fall MongoDB speichert die Daten ähnlich wie JSON Dokumente ab und es 
 vereinfacht den Umgang mit javascript sehr.
