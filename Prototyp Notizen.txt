@@ -14,3 +14,8 @@ fabio.boran: Fabio1
 dejan.sunaric: Dejan1
 eldi.neziri: Eldi12
 filip.josipovic:Filip1
+
+MongoDB ist eine NoSQL datenbank.
+SQL ist der bekannteste weg datenbanken anzulegen hat aber viele Limitationen.
+Eine NoSQL Datenbank in diesem Fall MongoDB speichert die Daten ähnlich wie JSON Dokumente ab und es 
+vereinfacht den Umgang mit javascript sehr.
