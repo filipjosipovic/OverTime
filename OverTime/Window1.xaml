@@ -9,14 +9,14 @@
     <Grid Margin="0,0,437.6,0">
         <TextBlock HorizontalAlignment="Left"  Height="29" Margin="160,13,0,0" TextWrapping="Wrap" Text="Lastname" VerticalAlignment="Top" Width="175"/>
         <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Height="25" Margin="0,13,0,0" TextWrapping="Wrap" Text="Firstname" VerticalAlignment="Top" Width="175"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="536,13,-275,0" TextWrapping="Wrap" Text="From - to" VerticalAlignment="Top" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="536,13,-275,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="175"/>
         <ScrollBar Margin="938,-10,-439,10"></ScrollBar>
         <UniformGrid HorizontalAlignment="Left" x:Name="Window1Vorname" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="7,47,0,0"/>
         <UniformGrid HorizontalAlignment="Left" x:Name="Window1Nachname" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="160,47,0,0"/>
         <UniformGrid HorizontalAlignment="Left" x:Name="Window1Date" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="340,47,-57,0"/>
         <UniformGrid HorizontalAlignment="Left" x:Name="Window1FromTo" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="536,47,-253,0"/>
         <UniformGrid HorizontalAlignment="Left" x:Name="Window1Class" Rows="10" Height="367" VerticalAlignment="Top" Width="153" Margin="708,47,-425,0"/>
-        <TextBlock HorizontalAlignment="Left" Height="30" Margin="318,10,-57,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Width="175"/>
+        <TextBlock HorizontalAlignment="Left" Height="30" Margin="318,10,-57,0" TextWrapping="Wrap" Text="From- To" VerticalAlignment="Top" Width="175"/>
         <TextBlock HorizontalAlignment="Left" Height="30" Margin="726,8,-465,0" TextWrapping="Wrap" Text="class" VerticalAlignment="Top" Width="175"/>
     </Grid>
 </Window>

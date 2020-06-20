@@ -94,7 +94,6 @@ namespace OverTime
 
         public void GetStudents()
         {
-
             StreamReader reader = new StreamReader("data.txt");
             int i = 0;
             try
@@ -109,8 +108,7 @@ namespace OverTime
                     date = reader.ReadLine();
                     clas = reader.ReadLine();
                     reader.ReadLine();
-                    // da müssen ein 
-                    if (new DateTime(int.Parse(date.Substring(6, 4)), int.Parse(date.Substring(3, 2)),1+ int.Parse(date.Substring(0, 2))) >= DateTime.Now)
+                    if (new DateTime(int.Parse(date.Substring(6, 4)), int.Parse(date.Substring(3, 2)), int.Parse(date.Substring(0, 2))) > DateTime.Now)
                     {
                         ChildrenVor[i].Text  =  vor;
                         ChildrenNach[i].Text = nach;
