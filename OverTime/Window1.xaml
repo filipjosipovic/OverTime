@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OverTime"
         mc:Ignorable="d"
-        Title="Registrierte dudes" Height="450" Width="879.602" Margin="1,1">
+        Title="Register" Height="450" Width="879.602" Margin="1,1">
     <Grid Margin="0,0,437.6,0">
         <TextBlock HorizontalAlignment="Left"  Height="29" Margin="160,13,0,0" TextWrapping="Wrap" Text="Lastname" VerticalAlignment="Top" Width="175"/>
         <TextBlock HorizontalAlignment="Left" TextAlignment="Center" Height="25" Margin="0,13,0,0" TextWrapping="Wrap" Text="Firstname" VerticalAlignment="Top" Width="175"/>

@@ -1,11 +1,33 @@
 Shell 
 npm run dev	
-		
+
+http://localhost:5000/		
 http://localhost:5000/schulwart/key0x0ff2b
-http://localhost:5000/
 https://cloud.mongodb.com/v2/5ed810711e5fc96c310988a8#metrics/replicaSet/5ed8119423e4154c10770b4f/explorer/%3Cdbname%3E/users/find
 
 felix.jopkiewicz@studierende.htl-donaustadt.at
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 USER DATA:
 felix.jopkiewicz : Felix1
@@ -13,11 +35,3 @@ fabio.boran: Fabio1
 dejan.sunaric: Dejan1
 eldi.neziri: Eldi12
 filip.josipovic:Filip1
-
-MongoDB ist eine NoSQL datenbank.
-Wurde in c++ geschrieben
-SQL ist der bekannteste Weg datenbanken anzulegen hat aber viele Limitationen.
-NoSQL Dinge können als Objekte angekegt werden Abfragen sind leichter wegen Tabellen.
-MongoDB kann eine Datenbank auf mehreren PCs teilen
-Eine NoSQL Datenbank in diesem Fall MongoDB speichert die Daten ähnlich wie JSON Dokumente ab und es 
-vereinfacht den Umgang mit javascript sehr.
