@@ -56,7 +56,7 @@
             <task id="13" name="Website" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="100" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
-            <task id="14" name="Database" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="100" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
+            <task id="14" name="Database programming" color="#8cb6ce" meeting="false" start="2020-03-25" duration="28" complete="100" thirdDate="2020-03-26" thirdDate-constraint="0" expand="true">
                 <depend id="15" type="2" difference="0" hardness="Strong"/>
             </task>
             <task id="15" name="Connection to school server" color="#8cb6ce" meeting="false" start="2020-05-04" duration="21" complete="0" thirdDate="2020-05-04" thirdDate-constraint="1" expand="true">
